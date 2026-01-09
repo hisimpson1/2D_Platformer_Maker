@@ -11,9 +11,9 @@
 
 # 개인 홈페이지
 
+- [플랫포머 메이커 윈도우즈용 게임 다운로드](https://github.com/hisimpson1/gittest/raw/master/unity/2D_Platformer_Maker/2D_Platformer_Maker.zip)
 - 구개인 홈페이지:     https://dolphin.ivyro.net/file/alllist.php?to=mobile
 - 신규 개인 홈페이지:   https://hisimpson1.github.io/ 
-- [윈도우즈용 게임 다운로드](https://github.com/hisimpson1/gittest/raw/master/unity/2D_Platformer_Maker/2D_Platformer_Maker.zip)
 
 
 
