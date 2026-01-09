@@ -5,4 +5,4 @@
 해당 에셋은 라이선스 문제로 저장소에 포함되어 있지 않습니다.
 
 - 구개인 홈페이지:     https://dolphin.ivyro.net/file/alllist.php?to=mobile
-  신규 개인 홈페이지:   https://hisimpson1.github.io/ 
+- 신규 개인 홈페이지:   https://hisimpson1.github.io/ 
