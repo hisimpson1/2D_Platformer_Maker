@@ -1,0 +1,59 @@
+﻿#pragma kernel CSMain
+
+Texture2D<float4> InputTex;
+RWTexture2D<float4> Result;
+
+float _Time; // C#에서 전달
+
+[numthreads(8, 8, 1)]
+void CSMain(uint3 id : SV_DispatchThreadID)
+{
+    int2 pixel = int2(id.xy);
+
+    uint w, h;
+    Result.GetDimensions(w, h);
+
+    // 화면 중심 좌표
+    float2 center = float2(w * 0.5, h * 0.5);
+
+    // 픽셀과 중심 사이 거리
+    float dist = distance(float2(pixel.x, pixel.y), center);
+
+    // 최대 반경 (화면 대각선 절반 정도)
+    float maxRadius = length(float2(w * 0.5, h * 0.5));
+
+    // 진행 반경 (시간에 따라 줄어듦 → 바깥에서 안쪽으로)
+    float radius = maxRadius - _Time * 100.0;
+
+    // 원본 색상
+    float4 col = InputTex.Load(int3(pixel, 0));
+
+    // 흑백 변환
+    float gray = dot(col.rgb, float3(0.3, 0.59, 0.11));
+    float3 grayColor = float3(gray, gray, gray);
+
+    // 바깥쪽부터 흑백으로 진행
+    float t = smoothstep(radius, radius + 50.0, dist);
+    col.rgb = lerp(col.rgb, grayColor, t);
+
+    //Result[pixel] = saturate(col);
+    Result[pixel] = float4(col.rgb, 1.0);
+}
+
+/*
+#pragma kernel CSMain
+
+Texture2D<float4> InputTex;
+RWTexture2D<float4> Result;
+
+[numthreads(8, 8, 1)]
+void CSMain(uint3 id : SV_DispatchThreadID)
+{
+    int2 pixel = int2(id.xy);
+    float4 col = InputTex.Load(int3(pixel, 0)); // Z=0 mip level
+    //Result[pixel] = float4(1.0 - col.rgb, 1.0); // 색 반전, 알파 없음
+    //Result[pixel] = float4(col.rgb, col.a);
+    Result[pixel] = float4(col.rgb, 1.0);
+
+}
+*/
