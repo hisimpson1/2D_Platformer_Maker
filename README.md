@@ -8,13 +8,12 @@
 - 심플 2D 플랫포머 에셋 팩 BE2 (퍼블리셔: 골드메탈 스튜디오) : https://assetstore.unity.com/packages/2d/characters/simple-2d-platformer-assets-pack-188518
 - FREE Casual Game SFX Pack : https://assetstore.unity.com/packages/audio/sound-fx/free-casual-game-sfx-pack-54116
 
-[다운로드](https://github.com/hisimpson1/gittest/raw/master/unity/2D_Platformer_Maker/2D_Platformer_Maker.zip)
 
 # 개인 홈페이지
 
 - 구개인 홈페이지:     https://dolphin.ivyro.net/file/alllist.php?to=mobile
 - 신규 개인 홈페이지:   https://hisimpson1.github.io/ 
-- 윈도우즈용 게임 다운로드: https://github.com/hisimpson1/gittest/blob/master/unity/2D_Platformer_Maker/2D_Platformer_Maker.zip
+- [윈도우즈용 게임 다운로드](https://github.com/hisimpson1/gittest/raw/master/unity/2D_Platformer_Maker/2D_Platformer_Maker.zip)
 
 
 
