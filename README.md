@@ -7,4 +7,8 @@
 - 구개인 홈페이지:     https://dolphin.ivyro.net/file/alllist.php?to=mobile
 - 신규 개인 홈페이지:   https://hisimpson1.github.io/ 
 
-<video src="https://github.com/hisimpson1/gittest/blob/master/unity/2D_Platformer_Maker/play_platformmaker.mp4" controls autoplay loop muted></video>
+
+
+
+https://github.com/user-attachments/assets/22dcf255-40cb-4e26-8349-9fddecf21cd4
+
