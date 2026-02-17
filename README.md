@@ -24,7 +24,8 @@ https://github.com/user-attachments/assets/22dcf255-40cb-4e26-8349-9fddecf21cd4
 - 런타임 Load, Save, 타일 액터 에디팅 기능 구현
 - 편집은 컴맨드팬턴으로 Undo, Redo 기능 구현
 
-2D Platformer Maker이외의 구현 영상입니다.
+# 캐릭터 상의 장탈착시 셰이더로 효과를 주고 있습니다.
+2D Platformer Maker와는 상관없는 기능이지만 포트폴리오를 위해 올립니다.
 캐릭터가 상의 옷을 변경할때, 옷이 사라지는 효과와 나타나는 효과를 셰이더로 주고 있습니다.
 
 https://github.com/user-attachments/assets/ce168fe3-70ea-4192-ac48-0e4fb3c11634
