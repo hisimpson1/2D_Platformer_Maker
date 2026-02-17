@@ -16,7 +16,6 @@
 - 신규 개인 홈페이지:   https://hisimpson1.github.io/ 
 
 
-
 https://github.com/user-attachments/assets/22dcf255-40cb-4e26-8349-9fddecf21cd4
 
 # 기능 : unity platformer 런타임 편집기능 추가
@@ -24,3 +23,9 @@ https://github.com/user-attachments/assets/22dcf255-40cb-4e26-8349-9fddecf21cd4
 - Player Idle, Walk 애니메이션 연결, 좌, 우로 이동, 점프 구현
 - 런타임 Load, Save, 타일 액터 에디팅 기능 구현
 - 편집은 컴맨드팬턴으로 Undo, Redo 기능 구현
+
+2D Platformer Maker이외의 구현 영상입니다.
+캐릭터가 상의 옷을 변경할때, 옷이 사라지는 효과와 나타나는 효과를 셰이더로 주고 있습니다.
+
+https://github.com/user-attachments/assets/ce168fe3-70ea-4192-ac48-0e4fb3c11634
+
